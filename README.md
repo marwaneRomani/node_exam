@@ -1,2 +1,2 @@
 # node_exam
-run npm run start:dev
+run: npm run start:dev
