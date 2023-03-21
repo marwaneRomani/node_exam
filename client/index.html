@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/main.css">
+    <script type="module" src="./javascript/main.js"></script>
+    <title>Document</title>
+</head>
+<body>
+    <header class="header">
+        <a href="#default" class="logo">TasksManager</a>
+        <div class="header-right">
+          <a class="active" href="#home">Home</a>
+          <a id="resetData" class="active" href="">Reset</a>
+        </div>
+    </header>
+
+
+    <main>
+        <!-- form  -->
+        <div class="form">
+            <label for="fname">Task Title</label>
+            <input  type="text" class="error" id="task" placeholder="Your task..">
+                    
+            <div class="controllers">
+                <button id="submit">Submit</button>
+                <button id="reset">Reset</button>    
+            </div>
+        </div>
+
+        <table id="table" class="data-table">
+            <thead>
+                <tr>
+                    <th>id</th>
+                    <th>task</th>
+                    <th>order</th>
+                    <th>delete</th>
+                    <th>swapUp</th>
+                    <th>swapDown</th>
+                </tr>
+            </thead>
+    
+            <tbody id="table-body">
+                
+            </tbody>
+
+        </table>        
+
+    </main>
+
+
+
+
+
+
+
+
+
+
+    <footer class="footer-basic">
+        <ul class="list-inline">
+            <li class="list-inline-item"><a href="#">Home</a></li>
+            <li class="list-inline-item"><a href="#">Tasks</a></li>
+            <li class="list-inline-item"><a href="#">Terms</a></li>
+            <li class="list-inline-item"><a href="#">Privacy</a></li>
+        </ul>
+        <p class="copyright">GL © 2023</p>
+    </footer>
+</body>
+</html>
